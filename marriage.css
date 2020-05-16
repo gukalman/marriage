@@ -1,0 +1,413 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+  line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1,
+h2
+{
+font-family: 'Great Vibes', cursive;
+}
+
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+/*********************************/
+
+
+body{
+    font-family: 'Libre Baskerville' serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #444349;
+    text-align: center;
+    background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
+  }
+
+.cover{
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg")no-repeat 70% center/cover;
+  display: table;
+  width: 100vw;  /*
+Ha a vw -t (vh) egységként használom, akkor ez azt jelenti, hogy a webhelyen mindig az eszköz
+ képernyőszélességével arányosan fog meg jelleni
+	               */
+  height: 100vh;
+  background-position: right;
+  background-size: cover;
+}
+
+.hero-text-wrapper{
+  display: cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.hero-text h1{
+  font-size: 3.15rem;
+  color: #d2ba87;
+  margin-bottom: 0;
+}
+
+.tagline{
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+
+.we::after{
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+.photos img{
+  height: 7.5rem;
+}
+.photos h3{
+  font-weight: 700;
+}
+.photos div{
+  font-family: 'Muli', sans-serif;;
+}
+
+.photos::after{
+  display: block;
+  content: "";
+  background-color: #000000;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+
+.goldhr::after{
+  display: block;
+  content: "";
+  background-color: #d2ba87;
+  height: .1875rem;
+  width: 50vw;
+  margin: 1.5rem auto;
+}
+
+.question {
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.answer {
+  margin-bottom: 1.5rem;
+}
+
+.date {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  vertical-align: middle;
+}
+
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+.locations,
+ .program,
+ .gifts,
+ .contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+}
+
+header{
+    padding-top: 20%;
+    padding-bottom: 40%;
+  }
+
+.locations img{
+  height: 7.5rem;
+}
+
+.au-center{
+ position: relative;
+ display: block;
+}
+
+.au-center{
+ position: relative;
+ display: block;
+}
+
+
+/* ---------------------- */
+
+
+
+  h1{
+    font-size: 3.0rem;
+  }
+
+  h2{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 1rem;
+   /* padding-bottom: 1rem; */
+  }
+
+  h3 {
+  font-size: 1.5rem;
+}
+
+  li{
+    list-style-type: none;
+  }
+
+  a{
+    color: #bd806e;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #eda087;
+    transition: color .15s ease-in-out;
+  }
+
+  .responsive{
+    width: 20%;
+    height: auto;
+  }
+
+  .margin-bottom{
+    margin-bottom: 50px;
+  }
+
+  .margin-bott{
+    margin-bottom: 25px;
+  }
+
+  .color-white{
+    color: #FFFFFF;
+  }
+
+  .color-black{
+    color: #000000;
+  }
+
+  .color-gold{
+    color: #d2ba87;
+  }
+
+  .great{
+    font-family: Great Vibes;
+  }
+
+
+.article-color{
+    color: #d2ba87;
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+
+  .div-program h2{
+    font-family: 'Great Vibes', cursive;
+    margin-top: 1rem;
+  }
+
+.program ul{
+  letter-spacing: .025rem;
+}
+
+  .article-italic{
+    font-style: italic;
+  }
+
+  .div-program{
+    width: 100vw;
+    color: #d2ba87;
+    background: hsla(100,0%,0%,.6);
+    font-family: 'Muli', sans-serif;
+  }
+
+.gifts img{
+  7.5rem;
+}
+
+.gifts p:last-child{
+  margin-bottom: 0;
+}
+  .div-q-and{
+    color: #d2ba87;
+    background-color: hsla(100,0%,0%,.6);
+    width: 100vw;
+    padding-left: 1rem;
+    padding-right: 1.7rem;
+    padding-top: .4rem;
+    padding-bottom: 1rem;
+  }
+
+.div-q-and h2{
+  margin-top: 1rem;
+}
+
+.div-q-and p{
+  font-family: Muli, sans-serif;
+  text-align: left;
+}
+  footer{
+    background-color: #606060;
+    font-family: Muli;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    display: table;
+    color: #ffffff;
+    font-size: .875rem;
+
+  }
+
+footer p{
+  margin: 0px;
+}
+
+footer small{
+  line-height: 1.5;
+}
+
+.waper{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: .5rem 1rem;
+  margin: auto;
+}
+
+@media(min-width: 768px)
+{
+  .cover{
+    backround: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg") no-repeat center/cover;
+  }
+
+  .hero-text{
+    padding: 1.25rem;
+    width: 50%;
+    border-radius: 4px;
+  }
+
+  .tagline h1{
+    font-size: 5rem;
+  }
+
+  h3{
+    display:
+  }
+
+  .photos{
+    display: inline-block;
+    width: 30%;
+    margin: .5rem;
+    padding: 1.5rem;
+  }
+
+  .photos::after{
+    display: none;
+  }
+
+  .div-program{
+     width: 100%;
+    margin: 0 auto;
+  }
+
+  article{
+    max-width: 50vw;
+  }
+  .goldhr::after{
+    display: none;
+  }
+
+  .goldhr{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+  .div-q-and h3{
+   text-align: left;
+  }
+
+  .footer{
+    min-height: 7vh;
+  }
+}
